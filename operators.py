@@ -60,23 +60,26 @@
 # k=[1,2,3,10]
 # print(10 not in k)
 
-a=10
-b=10
+# a=10
+# b=10
 
-print(a==b)
-print(a is b)
-print(a is not b)
+# print(a==b)
+# print(a is b)
+# print(a is not b)
 
-L=[]
-Li=[]
-print(L is not Li)
+# L=[]
+# Li=[]
+# print(L is not Li)
 
-l=[1,2,3]
-l1=[1,2,3]
-print(id(l))
-print(id(l1))
-print(l==l1)
-print(l is not l1)
-a=10
-print(id(a))
+# l=[1,2,3]
+# l1=[1,2,3]
+# print(id(l))
+# print(id(l1))
+# print(l==l1)
+# print(l is not l1)
+# a=10
+# print(id(a))
+
+
+
 
