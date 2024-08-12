@@ -57,22 +57,22 @@
 #     print("charge is",npp)
         
 
-num=int(input("enter a number :"))
-if num ==1:
-    print("sunday")
-elif num ==2:
-    print("monday")
-elif num==3:
-    print("tuesday")
-elif num ==3:
-    print("wensday")
-elif num==4:
-    print("thuesday")
-elif num==5:
-    print("friday")
-elif num==6:
-    print("saturday")
-else:
-                                
+# num=int(input("enter a number :"))
+# if num ==1:
+#     print("sunday")
+# elif num ==2:
+#     print("monday")
+# elif num==3:
+#     print("tuesday")
+# elif num ==3:
+#     print("wensday")
+# elif num==4:
+#     print("thuesday")
+# elif num==5:
+#     print("friday")
+# elif num==6:
+#     print("saturday")
+# else:
+
 
 
