@@ -64,15 +64,50 @@
 #     print("monday")
 # elif num==3:
 #     print("tuesday")
-# elif num ==3:
+# elif num ==4:
 #     print("wensday")
-# elif num==4:
-#     print("thuesday")
 # elif num==5:
-#     print("friday")
+#     print("thuesday")
 # elif num==6:
+#     print("friday")
+# elif num==7:
 #     print("saturday")
 # else:
+#     print("enter a valid number")
+
+
+# cty=input("enter the city")
+# cty==cty.isupper
+# if cty=="Delhi":
+#     print("Monument is Red Fort")
+# elif cty=="Agra":
+#     print("Monument is Taj Mahal")
+# elif cty=="Jaipur":
+#     print("Monument is Jal Mahal")
+# else:
+#     print("no monument")        
+
+
+# a=int(input("enter a number"))
+# a=a%10
+# b=a%3
+# if a==0:
+#     print("enter no is not divisible by 3")
+# elif b==0:
+#     print("enter no is divisible by 3")
+# else:
+#     print("not is divisble")
+# print(a)
+
+
+# if a==0:
+#     print("error")
+# elif a%3:
+#     print ("divisible by 3")
+# else:
+#     print("no divisible by 3")  
+#   
+#    
 
 
 
