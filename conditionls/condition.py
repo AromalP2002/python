@@ -105,9 +105,19 @@
 # elif a%3:
 #     print ("divisible by 3")
 # else:
-#     print("no divisible by 3")  
-#   
-#    
+#     print("not divisible by 3")  
+#  (input)
 
+
+
+
+a=input("enter the string")
+b=input("enter a letter")
+a=a.upper()
+b=b.upper()
+if b in a:
+    print("avilable")
+else:
+    print("not aviable")    
 
 
