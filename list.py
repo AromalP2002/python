@@ -92,3 +92,92 @@ l=[10,1,2,3,5,8,6,1,2,8]
 #         l1.append(i)
 # print(l1) 
 #        
+# empty list
+
+# std=[]
+# while True:
+#     print('''
+#   1. add std
+#   2.view std
+#   3.update std
+#   4. delete std
+#   5.exit
+#           ''')                                      
+          
+#     ch=int (input('enter ur choice'))
+#     if ch==1:
+#         name=str(input('enter name: '))
+#         age=int(input('enter age:'))
+#         mark=int(input('enter marks: '))
+#         std.append([name,age,mark])
+#     elif ch==2:
+#         for i in std:
+#             print(i)
+#     elif ch==3:
+#         name=str(input('enter name'))
+#         f=0
+#         for i in std:
+#             if name in i:
+#                 mark=int(input('enter mark'))
+#                 i[2]=mark
+#                 f=1
+#         if f==0:
+#             print('invalid name')
+#     elif ch==4:
+#         name=str(input('enter name'))
+#         f=0
+#         for i in std:
+#             if name in i:
+#                 std.remove(i)
+#                 f=1
+#             if f==0:
+#                 print('invalid name')
+#     elif ch==5:
+#         break
+#     else:
+#         print('invalid choice')                       
+
+
+# reg:
+       
+emp=[]
+while True:
+    print('''
+1.registor
+2.view
+3.update
+4.delect
+5.add work
+6.search
+7.exit
+          ''')
+    op=int(input('enter the input' ))
+    if op==1:
+        name=int(input('enter name'))
+        id=int(input('enter id'))
+        age=str(input('enter age'))
+        place=str(input('enter place'))
+        salary=int(input('enter salary'))
+        pos= str(input('enter postion'))
+        exp=int(input('enter the experiance'))
+        emp.append([name,id,age,place,salary,pos,exp])
+    elif op==2:
+        for i in emp:
+            print(i)
+    elif op==3:
+        id=int(input('enter the id'))
+        while True:
+            print('''
+                  1.salary
+                  2.position
+                  3.exp
+                  4.exit''')
+            upd=int(input('enter the value'))
+            for i in emp:
+                if upd==1:
+                    slry=int(input('new salary'))
+                    i[5]=slry
+                    
+
+
+                 
