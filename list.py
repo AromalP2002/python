@@ -153,9 +153,9 @@ while True:
           ''')
     op=int(input('enter the input' ))
     if op==1:
-        name=int(input('enter name'))
+        name=str(input('enter name'))
         id=int(input('enter id'))
-        age=str(input('enter age'))
+        age=int(input('enter age'))
         place=str(input('enter place'))
         salary=int(input('enter salary'))
         pos= str(input('enter postion'))
@@ -171,12 +171,86 @@ while True:
                   1.salary
                   2.position
                   3.exp
-                  4.exit''')
-            upd=int(input('enter the value'))
-            for i in emp:
-                if upd==1:
-                    slry=int(input('new salary'))
-                    i[5]=slry
+                        ''')
+            f=0
+            ot=int(input('enter the input: '))
+            if ot==1:
+                slry=int(input('enter the salary'))
+                i[4]=slry
+                f=1
+            elif ot==2:
+                pos=str(input('enter the postion'))
+                i[5]=pos
+                f=1
+            elif ot==3:
+                exp=int(input('enter the experiance')) 
+                i[6]=exp
+                f=1
+    elif op==4:
+         
+         id=int(input('enter the id'))
+         f=0
+         for i in emp:
+              if i[1]==id:
+                   emp.remove(i)
+                   f=1
+         if f==1:
+              print('invalid id')
+    elif op==5:
+         id=int(input('enter the id'))
+         f=0
+         import datetime
+         for i in emp:
+              if id in i:
+                   task=str(input('enter the task'))
+                   date=datetime.datetime.now().strftime('%x')
+                   i.append(task)
+                   f=1
+         if f==0:
+            print("id not found")
+    elif op==6:
+         id=int(input('enter the id'))
+         f=0
+         for i in emp:
+              if id in i:
+                   print(i)
+                   f=1
+              if f==0:
+                   print(" id is not found")
+    elif op==7:
+         break
+    else:
+         print('invalid option')               
+                        
+                  
+                   
+                   
+         
+                  
+         
+              
+     
+            
+    
+        
+
+
+         
+         
+         
+         
+            
+
+         
+     
+    
+
+          
+              
+
+
+
+         
                     
 
 
