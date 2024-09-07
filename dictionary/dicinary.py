@@ -49,9 +49,9 @@ data=[{'name':'a','age':20},
 
 # adding 
 
-l=[{'name':'a','age':20,'project':['ems','sms']}]
-# print(l[0]['project'][0])
-new_pro='cms'
-l[0]['project'].append(new_pro)
-print(l)
+# l=[{'name':'a','age':20,'project':['ems','sms']}]
+# # print(l[0]['project'][0])
+# new_pro='cms'
+# l[0]['project'].append(new_pro)
+# print(l)
 
