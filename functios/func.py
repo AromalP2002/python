@@ -70,3 +70,27 @@
 # sample(20,'anu')
 # sample(age=20,name='akhil')  
 # .......  
+
+# def sample(name="anu",age=20):
+#     print(name,age)
+# sample("anu")
+# sample(age=20)
+# sample()
+
+# arbitary arregument
+
+
+# def sample(*a):
+#     print(a)
+# sample()
+# sample(10,20,30)
+# sample('anu',20,30,40,50)
+
+# arbitary keyword arrgument
+
+# def sample(**a):
+#     print(a)
+# sample(name='anu',age=20)
+# sample()
+
+
