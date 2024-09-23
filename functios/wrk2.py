@@ -19,13 +19,31 @@ def register():
         user.append({'id':id,'name':name,'email':email,'phone':phone,'password':password,'book':[]})
 
 def login():
+    usern=str(input('Enter Username : '))
+    passw=input('Enter password : ')
+    f=0
+    u=''
+    if usern=='admin' and passw=='admin':
+        f=1
+    for i in user:
+        if usern==i['email'] and passw==i['password']:
+            f=2
+            u=i
     return f,u
 
+
 def add_bk():
+    name=str(input('enter your name'))
+    price=int(input('enter the price'))
+    stock=int(input('enter the stock'))
     lib.append({'id':id,'name':name,'price':price,'stock':stock,})
 
 def view_bk():
-        print("{:<5}{:<10}{:<10}{:<10}".format(i['id'],i['name'],i['price'],i['stock']))
+        print('BOOK DETAILS')
+        print("{:<5}{:<10}{:<10}{:<10}".format('ID','BOOKNAME','PRICE','STOCK'))
+        print('_'*30)
+        for i in lib:
+            print("{:<5}{:<10}{:<10}{:<10}".format(i['id'],i['name'],i['price'],i['stock']))
 
 def update_bk():
     id=int(input('enter the id : '))
@@ -99,6 +117,8 @@ def return_bk(u):
             print('book removed')
     if f==0:
         print('invalid ID')
+def books_in_hand(u):
+    print(u['book'])        
 
 # Fuctions end
 
@@ -147,7 +167,8 @@ while True:
                     3.update profile
                     4.Rent a book
                     5.Return a book
-                    6.logout''')
+                    6.book in hand
+                    7.logout''')
                 c1=int(input('enter your choice : '))
                 if c1==1:
                     view_pro(u)
@@ -160,6 +181,8 @@ while True:
                 elif c1==5:
                     return_bk(u)
                 elif c1==6:
+                    books_in_hand(u)
+                elif c1==7:
                     break
                 else:
                     print('invalid option')
