@@ -14,7 +14,13 @@
 # f.write(' welcome\n')
 # f.write('helo'+'hai \n')
 
-f=open('dell.txt','w')
+# 
+# f=open('dem.txt','a')
+# f.write('python\n')
+# f.write('java\n')
+# f.write('scrpit\n')
+
+f=open('tell.txt','a')
 f.write('python\n')
 f.write('java\n')
-f.write('string\n')
+f.write('scrpit\n')
