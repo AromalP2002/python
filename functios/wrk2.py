@@ -129,6 +129,7 @@ while True:
     1.Register as User
     2.Login
     3.EXIT''')
+    
     c=int(input('enter your choice : '))
     if c==1:
         register()
