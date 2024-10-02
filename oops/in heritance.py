@@ -81,4 +81,61 @@
 # sanu.project()
 # sanu.uniform()
 
+
+#hieratical inhertiance
+
+# class syn:
+#     def python(self):
+#         print('python')
+#     def php(self):
+#         print('php')
+
+# class non_teaching_staff(syn):
+#     def admission(self):
+#         print('admission')
+
+# class teaching_staff(syn):
+#     def python_cur(self):
+#         print('python_prg')
+
+# staff1=non_teaching_staff()
+# staff2=teaching_staff ()
+# staff1.python()
+# staff1.php()
+
+#hibrid inhertiance
+
+# class syn:
+#     def python(self):
+#         print('python')
+#     def php(self):
+#         print('php')
+# class non_teaching_staff(syn):
+#     def admission(self):
+#         print('admission')
+# class teaching_staff(syn):
+#     def python_cur(self):
+#         print('python_prg')
+
+# class std(teaching_staff):
+#     def notes(self):
+#         print('notes')
+# staff1=non_teaching_staff()
+# staff2=teaching_staff()
+# staff3=std()
+# staff1.python()
+# staff1.php()
+# staff2.python_cur()
+# staff3.notes()  
+
+
+class indian_deffence:
+    def army(self):
+        print('army')
+    def navy(self):
+        print('navy')
+    def air_force(self):
+        print('air_force')
+class        
+    
                 
