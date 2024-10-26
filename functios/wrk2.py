@@ -136,7 +136,7 @@ while True:
     elif c==2:
         f,u=login()
         if f==1:
-            while True:
+           while True:
                 print('''
                 1.Add book
                 2.View Book
@@ -147,7 +147,7 @@ while True:
 
                 c1=int(input('enter your choice : '))
                 if c1==1:
-                    add_bk()
+                    add_bk() 
                 elif c1==2:
                     view_bk()
                 elif c1==3:
